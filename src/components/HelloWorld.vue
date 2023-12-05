@@ -100,7 +100,7 @@ defineProps({
 })
 
 let open = () => {
-  window.open('http://localhost:5173/#/Borrow')
+  window.open('https://xpet.jaredfromsubway-mevbot.tech/#/Borrow')
 }
 const count = ref(0)
 </script>
