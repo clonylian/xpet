@@ -1,26 +1,25 @@
+import { createRouter, createWebHistory } from "vue-router";
 
-import * as VueRouter from "vue-router";
-
-const routes= [
-  {
-    path: '/',  
-    name: 'HelloWorld',
-    component: () => import('../components/HelloWorld.vue')
-  },
+const routes = [
   {
     path: '/Borrow',
     name: 'Borrow',
     component: () => import('../view/Borrow.vue')
   },
   {
+    path: '/',
+    name: 'HelloWorld',
+    component: () => import('../components/HelloWorld.vue')
+  },
+  {
     path: '/Convert',
     name: 'Convert',
     component: () => import('../view/Convert.vue')
   }
-]
+];
 
-const router = VueRouter.createRouter({
-  history: VueRouter.createWebHashHistory(),
+const router = createRouter({
+  history: createWebHistory(),
   routes,
   scrollBehavior(to) {
     if (to.hash) {
