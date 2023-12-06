@@ -182,6 +182,7 @@ const count = ref(0)
 }
 
 .center_one {
+  width: 50%;
   color: white;
 }
 
@@ -198,7 +199,10 @@ const count = ref(0)
   font-weight: 500;
   margin-top: 2rem;
 }
-
+.center_right{
+  display: flex;
+justify-content: center
+}
 .center_right>img {
   width: 528px;
   height: 559px;
@@ -257,6 +261,7 @@ const count = ref(0)
 
 .center_right {
   width: 50%;
+  display: flex;
   position: relative;
   top: 0;
 }
@@ -265,7 +270,7 @@ const count = ref(0)
   position: absolute;
   width: 338px;
   height: 486px;
-  left: 16%;
+  left:25%;
   top: 6%;
 }
 

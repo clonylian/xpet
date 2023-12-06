@@ -4,7 +4,6 @@
             <div class="head_1">
                 <div class="head_2">
                     <router-link to="/">
-
                         <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-b933ss" focusable="false"
                             aria-hidden="true" viewBox="0 0 147 141" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
