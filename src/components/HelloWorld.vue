@@ -100,7 +100,7 @@ defineProps({
 })
 
 let open = () => {
-  window.open('https://xpet.vercel.app/#/Borrow')
+  window.open('https://xpet.vercel.app/Borrow')
 }
 const count = ref(0)
 </script>
